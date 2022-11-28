@@ -35,9 +35,9 @@ echo -e "[!] Done!"
 
 echo -e "Installing the license files..."
 
-cp libsynoss_1.so /volume1/@appstore/SurveillanceStation/lib/libsynoss_1.so
-cp sscored /volume1/@appstore/SurveillanceStation/sbin/sscored
-cp SYNO.SurveillanceStation.Layout.so /volume1/@appstore/SurveillanceStation/webapi/Layout/src/SYNO.SurveillanceStation.Layout.so
+mv libsynoss_1.so /volume1/@appstore/SurveillanceStation/lib/libsynoss_1.so
+mv sscored /volume1/@appstore/SurveillanceStation/sbin/sscored
+mv SYNO.SurveillanceStation.Layout.so /volume1/@appstore/SurveillanceStation/webapi/Layout/src/SYNO.SurveillanceStation.Layout.so
 
 echo -e "[!] Done!"
 
@@ -52,6 +52,19 @@ echo -e "Restarting Surveillance Station..."
 synoservice --start pkgctl-SurveillanceStation
 
 echo -e "[!] Done!"
+
+
+
+#--------------------------------
+# Cleanup
+#--------------------------------
+
+echo -e "Cleaning up downloads..."
+
+rm SS-x64-8.0.3-5159.tar
+rm license.sh
+  
+  echo -e "[!] Done!"
 
 
 
