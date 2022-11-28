@@ -1,6 +1,7 @@
 # Surveillance Station 8.0.3-5159 Licensing
  A script to install Synology Surveillance Station 8.0.3-5159 license
 
+![image](https://user-images.githubusercontent.com/6334069/204353368-7ae3057c-fc69-40ec-bf4a-589972169ee5.png)
 
 
 # How to use:
@@ -35,3 +36,9 @@
 ````
   ./license.sh
 ````
+
+# How to check the license status:
+
+1. Open Surveillance Station
+2. Click the button on the top left.
+3. Click on License
