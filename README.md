@@ -18,21 +18,13 @@
    
 3. Copy the repository from Github
 ````
-  wget https://github.com/PREngineer/Surveillance-Station-Licensing/archive/master.tar.gz
+  wget https://github.com/PREngineer/Surveillance-Station-Licensing/releases/download/v1.0/SS-x64-8.0.3-5159.tar
 ````
 4. Extract the repository files
 ````
-  tar -zxvf master.tar.gz
+  tar -xvf SS-x64-8.0.3-5159.tar
 ````
-5. Get into the proper directory
-````
-  cd Surveillance-Station-Licensing-main/lic/
-````
-6. Make the script executable
-````
-  chmod +x license.sh
-````
-7. Execute the script
+5. Execute the script
 ````
   ./license.sh
 ````
